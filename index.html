@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sedot WC Karawang Murah Profesional | Muda Indah Mandiri</title>
+
+  <meta
+    name="description"
+    content="Jasa sedot WC Karawang profesional melayani Karawang, Cikarang, Bekasi, Cikampek, Tambun, dan Cibitung. Layanan sedot WC, saluran mampet, sedot lemak catering, septic tank bio, dan resapan."
+  />
+
+  <meta
+    name="keywords"
+    content="sedot wc karawang, jasa sedot wc karawang, sedot wc cikarang, sedot wc bekasi, pelancaran saluran mampet, sedot lemak catering, septic tank bio"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#ffffff;
+      color:#1f2937;
+      line-height:1.7;
+    }
+
+    a{
+      text-decoration:none;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .topbar{
+      background:#f97316;
+      color:#fff;
+      padding:10px 0;
+      font-size:14px;
+      text-align:center;
+    }
+
+    header{
+      background:linear-gradient(135deg,#f97316,#374151);
+      color:#fff;
+      padding:80px 0 60px;
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:40px;
+      align-items:center;
+    }
+
+    .hero h1{
+      font-size:42px;
+      line-height:1.3;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:17px;
+      margin-bottom:25px;
+    }
+
+    .btn{
+      display:inline-block;
+      background:#fff;
+      color:#f97316;
+      padding:14px 28px;
+      border-radius:10px;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:translateY(-3px);
+    }
+
+    .banner-space{
+      background:rgba(255,255,255,0.15);
+      border:2px dashed rgba(255,255,255,0.5);
+      min-height:280px;
+      border-radius:20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    .banner-space span{
+      font-size:20px;
+      font-weight:600;
+    }
+
+    section{
+      padding:70px 0;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:45px;
+    }
+
+    .section-title h2{
+      font-size:34px;
+      color:#f97316;
+      margin-bottom:10px;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#fff;
+      border-radius:18px;
+      padding:30px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      transition:0.3s;
+      text-align:center;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .icon-space{
+      width:80px;
+      height:80px;
+      border-radius:50%;
+      background:#fff7ed;
+      margin:0 auto 20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#f97316;
+      font-weight:700;
+      font-size:35px;
+      text-align:center;
+      padding:10px;
+    }
+
+    .card h3{
+      margin-bottom:10px;
+      color:#f97316;
+    }
+
+    .advantages{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:25px;
+    }
+
+    .adv-box{
+      background:#f3f4f6;
+      padding:30px;
+      border-radius:18px;
+      text-align:center;
+    }
+
+    .adv-box h3{
+      color:#f97316;
+      margin-bottom:10px;
+    }
+
+    .coverage{
+      background:#f97316;
+      color:#fff;
+      border-radius:25px;
+      padding:50px;
+      text-align:center;
+    }
+
+    .coverage p{
+      margin-top:15px;
+      font-size:17px;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:18px;
+    }
+
+    .gallery-box{
+      background:#f9fafb;
+      border:2px dashed #fdba74;
+      min-height:180px;
+      border-radius:15px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:15px;
+      color:#f97316;
+      font-weight:600;
+    }
+
+.gallery-box img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:15px;
+}
+
+    .logo-space{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+      gap:20px;
+    }
+
+    .logo-box{
+      background:#fff;
+      border:2px dashed #d1d5db;
+      min-height:120px;
+      border-radius:15px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:15px;
+      color:#f97316;
+      font-weight:600;
+      box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .contact-box{
+      background:#f3f4f6;
+      border-radius:25px;
+      padding:50px;
+      text-align:center;
+    }
+
+    .contact-box h2{
+      color:#f97316;
+      margin-bottom:15px;
+      font-size:34px;
+    }
+
+    .contact-box p{
+      margin-bottom:10px;
+    }
+
+    .wa-btn{
+      display:inline-block;
+      margin-top:20px;
+      background:#25D366;
+      color:#fff;
+      padding:15px 30px;
+      border-radius:12px;
+      font-weight:600;
+    }
+
+    footer{
+      background:#1f2937;
+      color:#fff;
+      text-align:center;
+      padding:25px 15px;
+      font-size:14px;
+    }
+
+    .floating-wa{
+      position:fixed;
+      right:20px;
+      bottom:20px;
+      background:#25D366;
+      color:#fff;
+      width:60px;
+      height:60px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:28px;
+      z-index:999;
+      box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    }
+
+.area-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:30px;
+  margin-top:40px;
+}
+
+.area-box{
+  background:#f3f4f6;
+  padding:35px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.06);
+}
+
+.area-box h3{
+  color:#f97316;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
+.area-box ul{
+  padding-left:20px;
+}
+
+.area-box ul li{
+  margin-bottom:10px;
+  color:#1f2937;
+}
+
+.banner-img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:20px;
+}
+
+    @media(max-width:768px){
+      .hero h1{
+        font-size:32px;
+      }
+
+      .section-title h2,
+      .contact-box h2{
+        font-size:28px;
+      }
+
+      .coverage,
+      .contact-box{
+        padding:35px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    🚛 Jasa Sedot WC Profesional Karawang & Sekitarnya
+  </div>
+
+  <header>
+    <div class="container hero">
+
+      <div>
+        <h1>Sedot WC Karawang Profesional & Harga Bersahabat</h1>
+
+        <p>
+          Muda Indah Mandiri melayani jasa sedot WC, pelancaran saluran mampet,
+          sedot lemak catering, pembuatan septic tank bio, dan resapan untuk area
+          Karawang, Cikarang, Bekasi, Cikampek, Tambun, dan Cibitung.
+        </p>
+
+        <a href="https://wa.me/6285133390728" class="btn" target="_blank">
+          Hubungi WhatsApp
+        </a>
+      </div>
+
+      <div class="banner-space">
+          <img src="img/sedot-wc-muda-indah-mandiri-header.jpg" alt="Sedot Wc Muda Indah Mandiri" class="banner-img">
+      </div>
+
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Layanan Kami</h2>
+        <p>Layanan cepat, profesional, dan siap membantu kebutuhan Anda.</p>
+      </div>
+
+      <div class="services">
+
+        <div class="card">
+          <div class="icon-space">🚛</div>
+          <h3>Sedot WC</h3>
+          <p>
+            Melayani sedot WC penuh, mampet, dan perawatan septic tank rumah,
+            kantor, ruko, maupun tempat usaha.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon-space">🛠️</div>
+          <h3>Pelancaran Saluran Mampet</h3>
+          <p>
+            Mengatasi saluran air mampet dengan penanganan cepat dan peralatan modern.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon-space">🍽️</div>
+          <h3>Sedot Lemak Catering</h3>
+          <p>
+            Sedot grease trap dan limbah lemak catering, restoran, rumah makan,
+            dan dapur usaha.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon-space">🏗️</div>
+          <h3>Pembuatan Septic Tank Bio</h3>
+          <p>
+            Jasa pembuatan septic tank bio modern dan tahan lama untuk rumah maupun usaha.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon-space">💧</div>
+          <h3>Pembuatan Resapan</h3>
+          <p>
+            Pembuatan resapan air berkualitas untuk membantu sistem sanitasi lebih optimal.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#f8fbff;">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Keunggulan Kami</h2>
+        <p>Kami hadir dengan pelayanan terbaik dan terpercaya.</p>
+      </div>
+
+      <div class="advantages">
+
+        <div class="adv-box">
+          <h3>Perusahaan Berizin Resmi</h3>
+          <p>Legalitas jelas dan terpercaya dalam melayani pelanggan.</p>
+        </div>
+
+        <div class="adv-box">
+          <h3>Harga Bersahabat</h3>
+          <p>Biaya transparan dan kompetitif sesuai kebutuhan pekerjaan.</p>
+        </div>
+
+        <div class="adv-box">
+          <h3>Teknisi Berpengalaman</h3>
+          <p>Dikerjakan oleh tenaga ahli profesional dan berpengalaman.</p>
+        </div>
+
+        <div class="adv-box">
+          <h3>Garansi Pekerjaan</h3>
+          <p>Kami memberikan jaminan hasil pekerjaan yang maksimal.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="area-layanan">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Area Layanan Sedot WC Karawang & Bekasi</h2>
+      <p>
+        Kami siap melayani jasa sedot WC dan pelancaran saluran mampet
+        untuk wilayah Kabupaten Karawang, Kabupaten Bekasi,
+        dan sekitarnya dengan pelayanan cepat dan profesional.
+      </p>
+    </div>
+
+    <div class="area-grid">
+
+      <div class="area-box">
+        <h3>Kabupaten Karawang</h3>
+
+        <ul>
+          <li>Karawang Barat</li>
+          <li>Karawang Timur</li>
+          <li>Telukjambe Barat</li>
+          <li>Telukjambe Timur</li>
+          <li>Klari</li>
+          <li>Cikampek</li>
+          <li>Purwasari</li>
+          <li>Kotabaru</li>
+          <li>Majalaya</li>
+          <li>Rengasdengklok</li>
+          <li>Banyusari</li>
+          <li>Jatisari</li>
+          <li>Lemahabang</li>
+          <li>Rawamerta</li>
+          <li>Pangkalan</li>
+        </ul>
+      </div>
+
+      <div class="area-box">
+        <h3>Kabupaten Bekasi</h3>
+
+        <ul>
+          <li>Cikarang Barat</li>
+          <li>Cikarang Selatan</li>
+          <li>Cikarang Utara</li>
+          <li>Cikarang Timur</li>
+          <li>Cikarang Pusat</li>
+          <li>Tambun Selatan</li>
+          <li>Tambun Utara</li>
+          <li>Cibitung</li>
+          <li>Babelan</li>
+          <li>Tarumajaya</li>
+          <li>Setu</li>
+          <li>Serang Baru</li>
+          <li>Cibarusah</li>
+          <li>Bojongmangu</li>
+          <li>Sukatani</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section>
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Dokumentasi Pengerjaan</h2>
+        <p>Tempat untuk foto-foto aktivitas dan hasil pekerjaan di lapangan.</p>
+      </div>
+
+      <div class="gallery">
+
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri1.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri2.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri3.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri4.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri5.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri6.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri7.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri8.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri9.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri10.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri11.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+<div class="gallery-box">
+  <img src="img/sedot-wc-muda-indah-mandiri12.jpg" alt="Dokumentasi Sedot WC Muda Indah Mandiri">
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="contact-box">
+
+        <h2>Hubungi Kami Sekarang</h2>
+
+        <p><strong>Sedot WC Muda Indah Mandiri</strong></p>
+
+        <p>
+          📍 Perum Lemah Mulya Indah Blok A18 No 01, Majalaya - Karawang
+        </p>
+
+        <p>
+          📞 WhatsApp: 0851-3339-0728
+        </p>
+
+        <a
+          href="https://wa.me/6285133390728"
+          class="wa-btn"
+          target="_blank"
+        >
+          Chat WhatsApp
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Sedot WC Muda Indah Mandiri - Jasa Sedot WC Karawang Profesional
+  </footer>
+
+  <a
+    href="https://wa.me/6285133390728"
+    class="floating-wa"
+    target="_blank"
+  >
+    ☎
+  </a>
+
+</body>
+</html>

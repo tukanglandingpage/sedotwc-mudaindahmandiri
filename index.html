@@ -162,43 +162,34 @@
       color:#f97316;
     }
 
-.advantages{
+.keunggulan-section{
+  background:#f3f4f6;
+}
+
+.keunggulan-wrap{
   display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:25px;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
   margin-top:40px;
 }
 
-.adv-box{
-  background:#f3f4f6;
+.keunggulan-item{
+  background:#ffffff;
   padding:30px;
-  border-radius:18px;
-  text-align:center;
-  box-shadow:0 8px 20px rgba(0,0,0,0.08);
-  border:1px solid #e5e7eb;
-  min-height:220px;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.06);
 }
 
-@media(max-width:992px){
-  .advantages{
-    grid-template-columns:repeat(2,1fr);
-  }
+.keunggulan-item h3{
+  color:#f97316;
+  margin-bottom:15px;
+  font-size:22px;
 }
 
-@media(max-width:600px){
-  .advantages{
-    grid-template-columns:1fr;
-  }
+.keunggulan-item p{
+  color:#374151;
 }
     
-.adv-box:hover{
-  transform:translateY(-5px);
-}    
-    .adv-box h3{
-      color:#f97316;
-      margin-bottom:10px;
-    }
-
     .coverage{
       background:#f97316;
       color:#fff;
@@ -452,41 +443,52 @@
     </div>
   </section>
 
-  <section style="background:#f8fbff;">
-    <div class="container">
+<section class="keunggulan-section">
 
-      <div class="section-title">
-        <h2>Keunggulan Kami</h2>
-        <p>Kami hadir dengan pelayanan terbaik dan terpercaya.</p>
-      </div>
+  <div class="container">
 
-      <div class="advantages">
-
-        <div class="adv-box">
-          <h3>Perusahaan Berizin Resmi</h3>
-          <p>Legalitas jelas dan terpercaya dalam melayani pelanggan.</p>
-        </div>
-
-        <div class="adv-box">
-          <h3>Harga Bersahabat</h3>
-          <p>Biaya transparan dan kompetitif sesuai kebutuhan pekerjaan.</p>
-        </div>
-
-        <div class="adv-box">
-          <h3>Teknisi Berpengalaman</h3>
-          <p>Dikerjakan oleh tenaga ahli profesional dan berpengalaman.</p>
-        </div>
-
-        <div class="adv-box">
-          <h3>Garansi Pekerjaan</h3>
-          <p>Kami memberikan jaminan hasil pekerjaan yang maksimal.</p>
-        </div>
-
-      </div>
+    <div class="section-title">
+      <h2>Keunggulan Kami</h2>
+      <p>Kami hadir dengan pelayanan terbaik dan terpercaya.</p>
     </div>
-  </section>
 
-<section class="area-layanan">
+    <div class="keunggulan-wrap">
+
+      <div class="keunggulan-item">
+        <h3>✅ Perusahaan Berizin Resmi</h3>
+        <p>
+          Legalitas jelas dan terpercaya dalam melayani pelanggan.
+        </p>
+      </div>
+
+      <div class="keunggulan-item">
+        <h3>💰 Harga Bersahabat</h3>
+        <p>
+          Biaya transparan dan kompetitif sesuai kebutuhan pekerjaan.
+        </p>
+      </div>
+
+      <div class="keunggulan-item">
+        <h3>🛠️ Teknisi Berpengalaman</h3>
+        <p>
+          Dikerjakan oleh tenaga ahli profesional dan berpengalaman.
+        </p>
+      </div>
+
+      <div class="keunggulan-item">
+        <h3>⭐ Garansi Pekerjaan</h3>
+        <p>
+          Kami memberikan jaminan hasil pekerjaan yang maksimal.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <section class="area-layanan">
   <div class="container">
 
     <div class="section-title">

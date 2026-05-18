@@ -162,19 +162,25 @@
       color:#f97316;
     }
 
-    .advantages{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-      gap:25px;
-    }
+.advantages{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+  position:relative;
+  z-index:2;
+}
 
-    .adv-box{
-      background:#f3f4f6;
-      padding:30px;
-      border-radius:18px;
-      text-align:center;
-    }
-
+.adv-box{
+  background:#f3f4f6;
+  padding:30px;
+  border-radius:18px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  border:1px solid #e5e7eb;
+  position:relative;
+  z-index:2;
+}    
+    
     .adv-box h3{
       color:#f97316;
       margin-bottom:10px;
